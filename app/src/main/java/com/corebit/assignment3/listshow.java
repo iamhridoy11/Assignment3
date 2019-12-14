@@ -2,6 +2,7 @@ package com.corebit.assignment3;
 
 public class listshow {
 
+    //String id;
     private String valuex;
     private String valuey;
     private String timestamp;
@@ -11,6 +12,7 @@ public class listshow {
     }
 
     public listshow(String valuex, String valuey) {
+
         this.valuex = valuex;
         this.valuey = valuey;
         this.timestamp = timestamp;
@@ -26,8 +28,8 @@ public class listshow {
         return valuey;
     }
 
-    public String getTimestamp() {
-
-        return timestamp;
-    }
+//    public String getTimestamp() {
+//
+//        return timestamp;
+//    }
 }

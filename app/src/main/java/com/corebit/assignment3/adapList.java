@@ -20,7 +20,7 @@ class adapList extends ArrayAdapter<listshow> {
 
     public adapList(Activity context, List<listshow> detailsList) {
         super(context, R.layout.content, detailsList);
-        this.content = content;
+        this.content = context;
         this.detailsList = detailsList;
     }
 
@@ -46,7 +46,7 @@ class adapList extends ArrayAdapter<listshow> {
 
             textViewX.setText(detail.getvaluex());
             textViewY.setText(detail.getvaluey());
-            
+
 
         }
         return view;

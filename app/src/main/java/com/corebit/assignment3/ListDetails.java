@@ -28,7 +28,7 @@ public class ListDetails extends AppCompatActivity {
         setContentView(R.layout.detail_activity);
 
         showlists = findViewById(R.id.listId);
-        db = FirebaseDatabase.getInstance().getReference("details");
+        db = FirebaseDatabase.getInstance().getReference("Values");
         detailsList = new ArrayList<>();
 
 
