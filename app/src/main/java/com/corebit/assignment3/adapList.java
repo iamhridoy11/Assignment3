@@ -42,7 +42,7 @@ class adapList extends ArrayAdapter<listshow> {
 
             TextView textViewX = view.findViewById(R.id.ViewX);
             TextView textViewY = view.findViewById(R.id.ViewY);
-          //  TextView textViewTimestamp = view.findViewById(R.id.TimeStampText);
+           // TextView textViewTimestamp = view.findViewById(R.id.TimeStampText);
 
             textViewX.setText(detail.getvaluex());
             textViewY.setText(detail.getvaluey());

@@ -66,10 +66,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                 listshow timexy = new listshow(gx, gy);
                 db.child(id).setValue(timexy);
 
-                
-
-
-
+                Toast.makeText(MainActivity.this, "Successfully Saved To The Database", Toast.LENGTH_LONG).show();
 
             }
         });

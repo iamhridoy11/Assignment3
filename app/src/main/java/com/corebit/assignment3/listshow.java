@@ -4,7 +4,7 @@ public class listshow {
 
     private String valuex;
     private String valuey;
-   // private String timestamp;
+    private String timestamp;
 
     public listshow(){
 
@@ -13,7 +13,7 @@ public class listshow {
     public listshow(String valuex, String valuey) {
         this.valuex = valuex;
         this.valuey = valuey;
-       // this.timestamp = timestamp;
+        this.timestamp = timestamp;
     }
 
     public String getvaluex() {
@@ -26,8 +26,8 @@ public class listshow {
         return valuey;
     }
 
-//    public String getTimestamp() {
-//
-//        return timestamp;
-//    }
+    public String getTimestamp() {
+
+        return timestamp;
+    }
 }
